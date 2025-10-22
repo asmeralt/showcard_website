@@ -54,6 +54,7 @@ max-line-length = 120
 # For configuration options see: https://github.com/PyCQA/isort
 profile = "black"
 line_length = 120
+src_paths = ["src/backend", "tests/backend"]
 
 [tool.black]
 # For configuration options see: https://github.com/psf/black/tree/main

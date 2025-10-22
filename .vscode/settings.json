@@ -15,5 +15,8 @@
 	"isort.args": [ "--settings-path=./pyproject.toml" ],
 	"black-formatter.args": [ "--config=./pyproject.toml" ],
 	"mypy-type-checker.args": [ "--config-file=./pyproject.toml" ],
-	"flake8.args": [ "--toml-config=./pyproject.toml" ]
+	"flake8.args": [
+		"--toml-config=./pyproject.toml"
+	],
+	"python.analysis.extraPaths": [ "./src/backend", "./tests/backend" ]
 }
