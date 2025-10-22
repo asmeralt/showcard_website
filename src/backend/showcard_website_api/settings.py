@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []  # type: ignore[var-annotated]
 # Application definition
 
 INSTALLED_APPS = [
+    "showcard_website_api.models",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
