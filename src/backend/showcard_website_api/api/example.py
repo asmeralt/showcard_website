@@ -1,4 +1,4 @@
-from rest_framework import routers, serializers, viewsets  # type: ignore[import-untyped]
+from rest_framework import routers, serializers, viewsets
 
 from showcard_website_api.models.example import JigsawExample, JigsawExampleImage
 

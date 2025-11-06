@@ -10,6 +10,7 @@ dependencies = [
     "django-filter (>=25.1,<26.0)",
     "markdown (>=3.9,<4.0)",
     "djangorestframework (>=3.16.1,<4.0.0)",
+    "djangorestframework-stubs[compatible-mypy] (>=3.16.5,<4.0.0)",
 ]
 
 [tool.poetry]
@@ -79,7 +80,7 @@ show_error_context = true
 warn_redundant_casts = true
 namespace_packages = true
 explicit_package_bases = true
-plugins = ["mypy_django_plugin.main"]
+plugins = ["mypy_django_plugin.main", "mypy_drf_plugin.main"]
 
 [tool.django-stubs]
 django_settings_module = "showcard_website_api.settings"
